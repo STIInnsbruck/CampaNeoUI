@@ -77,7 +77,7 @@ chmod +x start.sh && chmod +x stop.sh
 sudo ./start.sh
 ```
 This will start 3 different docker containers corresponding to cayley, mongodb and mongo-express.
-The script will pring the IPs and Ports where the different services are running by default. You
+The script will print the IPs and Ports where the different services are running by default. You
 can open them with your browser in the following addresses:
 - cayley: [0.0.0.0:64210](http://0.0.0.0:64210)
 - mongo-express: [0.0.0.0:8081](http://0.0.0.0:8081)
@@ -85,3 +85,6 @@ can open them with your browser in the following addresses:
 ```
 sudo ./stop.sh
 ```
+
+### Importing JSON-LD
+
