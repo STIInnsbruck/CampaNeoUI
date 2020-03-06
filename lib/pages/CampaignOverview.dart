@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-
-void main() {
-  runApp(new CampaignOverview());
-}
+import 'package:userinterface/CurrentCampaign.dart';
+import 'package:userinterface/main.dart';
 
 //page About
 class CampaignOverview extends StatelessWidget {
@@ -291,9 +289,13 @@ class CampaignOverview extends StatelessWidget {
                                                                       .blue,
                                                                   onPressed:
                                                                       () {
-                                                                    Navigator.of(
-                                                                            context)
-                                                                        .pop();
+                                                                    Navigator
+                                                                        .push(
+                                                                      context,
+                                                                      MaterialPageRoute(
+                                                                          builder: (context) =>
+                                                                              CurrentCampaign()),
+                                                                    );
                                                                   },
                                                                   child: Text(
                                                                     'Consent',
@@ -336,9 +338,18 @@ class CampaignOverview extends StatelessWidget {
                                     );
                                   },
                                 ),
-                                Container(
-                                  padding: EdgeInsets.all(20),
-                                  child: Icon(Icons.cancel),
+                                new GestureDetector(
+                                  child: Container(
+                                    padding: EdgeInsets.all(20),
+                                    child: Icon(Icons.cancel),
+                                  ),
+                                  onTap: () {
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (context) => MyHomePage()),
+                                    );
+                                  },
                                 ),
                               ],
                             )
@@ -350,7 +361,6 @@ class CampaignOverview extends StatelessWidget {
                 )),
           ],
         )
-        //add campaneo describtion before the table
 
         );
   }
