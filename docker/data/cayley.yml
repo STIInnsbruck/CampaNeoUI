@@ -1,0 +1,6 @@
+store:
+  backend: mongo
+  address: db:27017
+  ready-only: false
+  options:
+    database_name: "cayley"
