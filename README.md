@@ -79,8 +79,8 @@ sudo ./start.sh
 This will start 3 different docker containers corresponding to cayley, mongodb and mongo-express.
 The script will pring the IPs and Ports where the different services are running by default. You
 can open them with your browser in the following addresses:
-- cayley: [0.0.0.0:64210](0.0.0.0:64210)
-- mongo-express: [0.0.0.0:8081](0.0.0.0:8081)
+- cayley: [0.0.0.0:64210](http://0.0.0.0:64210)
+- mongo-express: [0.0.0.0:8081](http://0.0.0.0:8081)
 4. For stoping the docker containers just execute
 ```
 sudo ./stop.sh
