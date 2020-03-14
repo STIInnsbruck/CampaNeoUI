@@ -1,6 +1,5 @@
+import 'package:campaneo/pages/CurrentCampaign.dart';
 import 'package:flutter/material.dart';
-import 'package:userinterface/CurrentCampaign.dart';
-import 'package:userinterface/main.dart';
 
 //page About
 class CampaignOverview extends StatelessWidget {
@@ -344,11 +343,12 @@ class CampaignOverview extends StatelessWidget {
                                     child: Icon(Icons.cancel),
                                   ),
                                   onTap: () {
-                                    Navigator.push(
-                                      context,
-                                      MaterialPageRoute(
-                                          builder: (context) => MyHomePage()),
-                                    );
+                                    // TODO
+//                                    Navigator.push(
+//                                      context,
+//                                      MaterialPageRoute(
+//                                          builder: (context) => MyHomePage()),
+//                                    );
                                   },
                                 ),
                               ],
@@ -360,8 +360,6 @@ class CampaignOverview extends StatelessWidget {
                   ],
                 )),
           ],
-        )
-
-        );
+        ));
   }
 }
