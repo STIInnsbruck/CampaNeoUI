@@ -1,5 +1,9 @@
+import 'package:campaneo/data/campaign_fetch.dart';
 import 'package:campaneo/pages/base_page.dart';
 import 'package:flutter/material.dart';
+import 'package:graphql_flutter/graphql_flutter.dart';
+
+import '../constants.dart';
 
 class CampaignHistoryPage extends BasePage {
   static const String routeName = '/history';
@@ -8,7 +12,7 @@ class CampaignHistoryPage extends BasePage {
 
   @override
   Widget body() {
-    return Column(
+    /*return Column(
       children: <Widget>[
         Container(
             margin: EdgeInsets.only(top: 80, left: 150, right: 100),
@@ -188,6 +192,63 @@ class CampaignHistoryPage extends BasePage {
               ],
             )),
       ],
+    );
+     */
+
+    return Query(
+        options: QueryOptions(
+          documentNode: gql(CampaignFetch.fetchById),
+          variables: {"id": "5cd07b18-cb84-45ba-8c3b-1335cb3ec981"},
+        ),
+        builder: (QueryResult result,
+            {VoidCallback refetch, FetchMore fetchMore}) {
+          if (result.hasException) {
+            return Text(result.exception.toString());
+          }
+          if (result.loading) {
+            return Text('Loading');
+          }
+          //final List campaigns = (result.data['getCampaign']);
+//          final List<LazyCacheMap> campaigns =
+//              (result.data['getCampaign'] as List<dynamic>)
+//                  .cast<LazyCacheMap>();
+          return CampaignWidget(
+            campaign: result.data['getCampaign'],
+          );
+        });
+  }
+}
+
+class CampaignWidget extends StatelessWidget {
+  final LazyCacheMap campaign;
+
+  CampaignWidget({@required this.campaign});
+
+  @override
+  Widget build(BuildContext context) {
+    //return Text(campaign['name']);
+    return Container(
+      margin: EdgeInsets.all(15),
+      decoration: BoxDecoration(
+        color: Colors.blue,
+        borderRadius: BorderRadius.circular(10),
+      ),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: <Widget>[
+          Text(
+            campaign['name'],
+            style: kCampaignTextStyle,
+          ),
+          Text(
+            campaign['description'],
+          ),
+          Text(
+            (campaign['organization'] as LazyCacheMap)['name'],
+          )
+        ],
+      ),
     );
   }
 }
