@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 
 import '../constants.dart';
 
-class CampaignWidget extends StatelessWidget {
+class CampaignDetailsWidget extends StatelessWidget {
   final String name;
   final String description;
   final String imageUrl; // TODO
   final String organizationName;
   final String organizationCountry;
 
-  CampaignWidget(
+  CampaignDetailsWidget(
       {@required this.name,
       @required this.description,
       @required this.organizationName,
@@ -20,6 +20,9 @@ class CampaignWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox(
       child: Card(
+        color: kCardBackgroundColorDark,
+        margin:
+            EdgeInsets.only(left: 10.0, right: 20.0, top: 10.0, bottom: 10.0),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -29,10 +32,6 @@ class CampaignWidget extends StatelessWidget {
               child: Stack(
                 children: <Widget>[
                   Positioned.fill(
-                    // In order to have the ink splash appear above the image, you
-                    // must use Ink.image. This allows the image to be painted as part
-                    // of the Material and display ink effects above it. Using a
-                    // standard Image will obscure the ink splash.
                     child: Ink.image(
                       image: AssetImage(
                         'images/campaign-back.png',
@@ -46,17 +45,11 @@ class CampaignWidget extends StatelessWidget {
                       color: Color.fromRGBO(255, 255, 255, 0.2),
                     ),
                   ),
-                  Positioned(
-                    bottom: 16.0,
-                    left: 16.0,
-                    right: 16.0,
-                    child: FittedBox(
-                      fit: BoxFit.scaleDown,
-                      alignment: Alignment.centerLeft,
-                      child: Text(
-                        name,
-                        style: kCampaignTitleTextStyle,
-                      ),
+                  Container(
+                    alignment: Alignment.bottomCenter,
+                    child: Text(
+                      name,
+                      style: kCampaignTitleTextStyle,
                     ),
                   ),
                 ],
@@ -65,16 +58,22 @@ class CampaignWidget extends StatelessWidget {
             ListTile(
               title: Text(
                 description,
-                style: kCampaignTextStyle,
+                style: kCardTitleTextStyleDark,
               ),
-              leading: Icon(Icons.announcement),
+              leading: Icon(
+                Icons.announcement,
+                color: kTextIconColorDark,
+              ),
             ),
             ListTile(
               title: Text(
                 '$organizationName ($organizationCountry)',
-                style: kCampaignTextStyle,
+                style: kCardTitleTextStyleDark,
               ),
-              leading: Icon(Icons.contacts),
+              leading: Icon(
+                Icons.contacts,
+                color: kTextIconColorDark,
+              ),
             ),
           ],
         ),

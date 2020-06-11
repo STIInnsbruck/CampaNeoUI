@@ -1,6 +1,6 @@
 import 'package:campaneo/data/campaign_fetch.dart';
 import 'package:campaneo/pages/base_page.dart';
-import 'package:campaneo/widget/campaign_widget.dart';
+import 'package:campaneo/widget/campaign_details.dart';
 import 'package:flutter/material.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
 
@@ -28,7 +28,7 @@ class CampaignHistoryPage extends BasePage {
 //          final List<LazyCacheMap> campaigns =
 //              (result.data['getCampaign'] as List<dynamic>)
 //                  .cast<LazyCacheMap>();
-          return CampaignWidget(
+          return CampaignDetailsWidget(
             name: result.data['getCampaign']['name'],
             description: result.data['getCampaign']['description'],
             organizationName: (result.data['getCampaign']['organization']

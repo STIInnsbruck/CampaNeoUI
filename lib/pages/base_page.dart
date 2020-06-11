@@ -1,3 +1,4 @@
+import 'package:campaneo/constants.dart';
 import 'package:campaneo/widget/drawer.dart';
 import 'package:flutter/material.dart';
 
@@ -9,9 +10,10 @@ abstract class BasePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: kBackgroundColorDark,
       appBar: AppBar(
         title: Text(title),
-        backgroundColor: Colors.blueGrey[900],
+        backgroundColor: kBackgroundColorDark,
       ),
       drawer: AppDrawer(),
       body: body(),

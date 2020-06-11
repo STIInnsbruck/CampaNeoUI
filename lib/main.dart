@@ -1,3 +1,4 @@
+import 'package:campaneo/constants.dart';
 import 'package:campaneo/pages/AboutPage.dart';
 import 'package:campaneo/pages/active_campaings_page.dart';
 import 'package:campaneo/pages/campaign_history_page.dart';
@@ -24,6 +25,15 @@ class CampaneoApp extends StatelessWidget {
               VehicleInformationPage(),
           AboutPage.routeName: (BuildContext context) => AboutPage(),
         },
+        theme: ThemeData(
+          cardTheme: CardTheme(
+            elevation: 8.0,
+            color: kCardBackgroundColorDark,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(8.0),
+            ),
+          ),
+        ),
       ),
       client: ApiClient.initClient(),
     );
