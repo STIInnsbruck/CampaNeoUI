@@ -1,14 +1,11 @@
-import 'package:campaneo/pages/base_page.dart';
 import 'package:flutter/material.dart';
 
-class AboutPage extends BasePage {
+class AboutPage extends StatelessWidget {
   static const String routeName = '/about';
   static const String pageTitle = 'About';
 
-  AboutPage() : super(title: pageTitle);
-
   @override
-  Widget body() {
+  Widget build(BuildContext context) {
     return Column(
       children: <Widget>[
         Container(
