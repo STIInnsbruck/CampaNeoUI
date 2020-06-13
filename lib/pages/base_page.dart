@@ -1,16 +1,11 @@
 import 'package:campaneo/constants.dart';
+import 'package:campaneo/pages/campaings_page.dart';
 import 'package:campaneo/pages/settings_page.dart';
 import 'package:campaneo/pages/vehicle_information_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-import 'campaings_page.dart';
-
 class BasePage extends StatefulWidget {
-  //BasePage({this.title}) : super();
-
-  //final String title;
-
   @override
   _BasePageState createState() => _BasePageState();
 }
@@ -57,13 +52,13 @@ class _BasePageState extends State<BasePage> {
           type: BottomNavigationBarType.fixed,
           backgroundColor: kBackgroundColorDark,
           unselectedItemColor: kTextIconColorDark,
-          selectedItemColor: Colors.yellow,
+          selectedItemColor: kTextIconSelectedColorDark,
           unselectedIconTheme: IconThemeData(
             color: kTextIconColorDark,
             size: 40.0,
           ),
           selectedIconTheme: IconThemeData(
-            color: Colors.yellow,
+            color: kTextIconSelectedColorDark,
             size: 40.0,
           ),
           currentIndex: _selectedIndex,
