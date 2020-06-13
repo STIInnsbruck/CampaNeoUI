@@ -1,16 +1,14 @@
 import 'package:campaneo/data/campaign_fetch.dart';
-import 'package:campaneo/pages/base_page.dart';
 import 'package:campaneo/widget/campaign_details.dart';
 import 'package:flutter/material.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
 
-class CampaignHistoryPage extends BasePage {
+class CampaignHistoryPage extends StatelessWidget {
   static const String routeName = '/history';
   static const String pageTitle = 'Campaign History';
-  CampaignHistoryPage() : super(title: pageTitle);
 
   @override
-  Widget body() {
+  Widget build(BuildContext context) {
     return Query(
         options: QueryOptions(
           documentNode: gql(CampaignFetch.fetchById),

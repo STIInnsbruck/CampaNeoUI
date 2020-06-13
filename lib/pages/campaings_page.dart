@@ -1,15 +1,14 @@
-import 'package:campaneo/pages/base_page.dart';
 import 'package:campaneo/widget/campaign_details.dart';
 import 'package:campaneo/widget/campaign_list_item.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-class ActiveCampaignsPage extends BasePage {
-  static const String pageTitle = 'Active Campaigns';
-  ActiveCampaignsPage() : super(title: pageTitle);
+class CampaignsPage extends StatelessWidget {
+  static const String routeName = '/campaigns';
+  static const String pageTitle = 'Campaigns';
 
   @override
-  Widget body() {
+  Widget build(BuildContext context) {
     return Row(
       children: <Widget>[
         Expanded(

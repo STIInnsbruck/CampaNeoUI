@@ -1,6 +1,6 @@
 import 'package:campaneo/constants.dart';
 import 'package:campaneo/pages/AboutPage.dart';
-import 'package:campaneo/pages/active_campaings_page.dart';
+import 'package:campaneo/pages/base_page.dart';
 import 'package:campaneo/pages/campaign_history_page.dart';
 import 'package:campaneo/pages/vehicle_information_page.dart';
 import 'package:flutter/material.dart';
@@ -17,7 +17,7 @@ class CampaneoApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GraphQLProvider(
       child: MaterialApp(
-        home: ActiveCampaignsPage(),
+        home: BasePage(),
         routes: {
           CampaignHistoryPage.routeName: (BuildContext context) =>
               CampaignHistoryPage(),
