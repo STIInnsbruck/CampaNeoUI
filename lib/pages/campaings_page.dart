@@ -1,3 +1,4 @@
+import 'package:campaneo/constants.dart';
 import 'package:campaneo/widget/campaign_details.dart';
 import 'package:campaneo/widget/campaign_list_item.dart';
 import 'package:flutter/material.dart';
@@ -19,7 +20,7 @@ class _CampaignsPageState extends State<CampaignsPage> {
 
   @override
   Widget build(BuildContext context) {
-    _isLargeScreen = MediaQuery.of(context).size.width > 800;
+    _isLargeScreen = MediaQuery.of(context).size.width > kScreenWidthBreakPoint;
 
     return Row(
       children: [

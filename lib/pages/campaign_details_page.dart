@@ -13,19 +13,28 @@ class CampaignDetailsPage extends StatefulWidget {
 }
 
 class _CampaignDetailsPageState extends State<CampaignDetailsPage> {
+  bool _isLargeScreen = false;
+
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: kBackgroundColorDark,
-      appBar: AppBar(
+    _isLargeScreen = MediaQuery.of(context).size.width > kScreenWidthBreakPoint;
+    if (_isLargeScreen) {
+      // TODO this seems to throw an exception because of some Animation gets interrupted
+      Navigator.pop(context);
+      return Container();
+    } else {
+      return Scaffold(
         backgroundColor: kBackgroundColorDark,
-      ),
-      body: CampaignDetailsWidget(
-        name: 'Title ${widget.campaignId}',
-        description: 'Description',
-        organizationName: 'VW',
-        organizationCountry: 'Germany',
-      ),
-    );
+        appBar: AppBar(
+          backgroundColor: kBackgroundColorDark,
+        ),
+        body: CampaignDetailsWidget(
+          name: 'Title ${widget.campaignId}',
+          description: 'Description',
+          organizationName: 'VW',
+          organizationCountry: 'Germany',
+        ),
+      );
+    }
   }
 }
