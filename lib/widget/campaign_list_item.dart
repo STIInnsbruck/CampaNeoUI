@@ -10,7 +10,7 @@ class CampaignListItemWidget extends StatefulWidget {
 
   CampaignListItemWidget({
     @required this.name,
-    @required this.subtitle,
+    this.subtitle,
     @required this.onTap,
     @required this.selected,
   });
@@ -59,12 +59,14 @@ class _CampaignListItemWidgetState extends State<CampaignListItemWidget> {
                   ? kTextIconSelectedColorDark
                   : kTextIconColorDark,
             ),
-            Text(
-              widget.subtitle,
-              style: widget.selected
-                  ? kCardSubtitleTextSelectedStyleDark
-                  : kCardSubtitleTextStyleDark,
-            ),
+            widget.subtitle != null
+                ? Text(
+                    widget.subtitle,
+                    style: widget.selected
+                        ? kCardSubtitleTextSelectedStyleDark
+                        : kCardSubtitleTextStyleDark,
+                  )
+                : Container(),
           ],
         ),
         trailing: Icon(

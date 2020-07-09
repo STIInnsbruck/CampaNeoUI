@@ -34,6 +34,7 @@ class CampaignDetailsWidget extends StatelessWidget {
                     image: AssetImage(
                       'images/campaign-back.png',
                     ),
+                    //TODO image: NetworkImage(imageUrl),
                     fit: BoxFit.cover,
                     child: null,
                   ),
