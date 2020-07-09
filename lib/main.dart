@@ -1,7 +1,6 @@
 import 'package:campaneo/constants.dart';
 import 'package:campaneo/pages/AboutPage.dart';
 import 'package:campaneo/pages/base_page.dart';
-import 'package:campaneo/pages/campaign_history_page.dart';
 import 'package:campaneo/pages/vehicle_information_page.dart';
 import 'package:flutter/material.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
@@ -19,8 +18,6 @@ class CampaneoApp extends StatelessWidget {
       child: MaterialApp(
         home: BasePage(),
         routes: {
-          CampaignHistoryPage.routeName: (BuildContext context) =>
-              CampaignHistoryPage(),
           VehicleInformationPage.routeName: (BuildContext context) =>
               VehicleInformationPage(),
           AboutPage.routeName: (BuildContext context) => AboutPage(),
