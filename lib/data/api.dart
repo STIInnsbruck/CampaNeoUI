@@ -3,6 +3,7 @@ import 'package:graphql_flutter/graphql_flutter.dart';
 
 const String URI_PROD = 'http://graphql.campaneo.vwn.cloud/graphql';
 const String URI_DEV = 'http://localhost:9002/graphql';
+const String URI_INT = 'https://campaneo.herokuapp.com/graphql';
 
 class ApiClient {
   static final HttpLink httpLink = HttpLink(uri: URI_DEV);
