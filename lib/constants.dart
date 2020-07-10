@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+const kScreenWidthBreakPoint = 800;
+
 const kCampaignTextStyle = TextStyle(
   color: Colors.black26,
   fontSize: 22,

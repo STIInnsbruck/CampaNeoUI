@@ -1,0 +1,29 @@
+extend type Query {
+  getCreatedCampaigns2: [Campaign] @listLength(min:20, max: 40)
+  getCampaign2(campaign_id: String!): Campaign
+}
+
+type Campaign {
+  description: String! @fake(type:lorem)
+  gpdr_classification: String!
+  id: String @fake(type:uuid)
+  image_url: String! @fake(type: imageUrl)
+  last_update: String @fake(type:recentDate)
+  name: String! @examples(values: ["Umweltverträglichkeitsprüfung für Bundesfernstraßen", "Anwendung des Naturschutzrechts bei der Planung von Bundesfernstraßen", "Ausführung Landschaftsbau und Grünpflege", "Forschung Naturschutz an Straßen", "Bundesprogramm Wiedervernetzung", "Verkehrsdichte in Braunschweig"])
+  valid_from: String! @fake(type:pastDate)
+  valid_to: String! @fake(type:futureDate)
+  organization: Organization!
+  #metrics: [GateCampaignMetric!]!
+}
+
+type Organization {
+  city: String @fake(type: city)
+  contact_email: String @fake(type:email)
+  country: String @fake(type:country)
+  id: String @fake(type: uuid)
+  name: String @fake(type: companyName)
+  phone_number: String @fake(type:phoneNumber)
+  postcode: String @fake(type:zipCode)
+  street: String @fake(type:streetName)
+  street_number: String @fake(type:number)
+}

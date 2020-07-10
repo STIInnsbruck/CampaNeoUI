@@ -1,0 +1,11 @@
+{
+  "name": "campaneo-grapql-proxy",
+  "version": "0.0.1",
+  "scripts": {
+    "heroku-prebuild": "npm install -g graphql-faker",
+    "start": "graphql-faker --extend http://graphql.campaneo.vwn.cloud/graphql -o schema_extension.faker.graphql"
+  },
+  "devDependencies": {
+    "graphql-faker": "^2.0.0-rc.23"
+  }
+}
