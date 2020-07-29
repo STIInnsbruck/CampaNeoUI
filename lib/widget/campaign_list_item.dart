@@ -1,16 +1,15 @@
 import 'package:campaneo/constants.dart';
+import 'package:campaneo/data/Dtos.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
 class CampaignListItemWidget extends StatefulWidget {
-  final String name;
-  final String subtitle;
+  final Campaign campaign;
   final Function onTap;
   final bool selected;
 
   CampaignListItemWidget({
-    @required this.name,
-    this.subtitle,
+    @required this.campaign,
     @required this.onTap,
     @required this.selected,
   });
@@ -22,6 +21,8 @@ class CampaignListItemWidget extends StatefulWidget {
 class _CampaignListItemWidgetState extends State<CampaignListItemWidget> {
   @override
   Widget build(BuildContext context) {
+    final subtitle = widget.campaign.getDateRange();
+
     return Card(
       margin: EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),
       color: widget.selected
@@ -46,7 +47,7 @@ class _CampaignListItemWidgetState extends State<CampaignListItemWidget> {
           ),
         ),
         title: Text(
-          widget.name,
+          widget.campaign.name,
           style: widget.selected
               ? kCardTitleTextSelectedStyleDark
               : kCardTitleTextStyleDark,
@@ -54,14 +55,17 @@ class _CampaignListItemWidgetState extends State<CampaignListItemWidget> {
         subtitle: Row(
           children: <Widget>[
             Icon(
-              Icons.linear_scale,
+              Icons.date_range,
               color: widget.selected
                   ? kTextIconSelectedColorDark
                   : kTextIconColorDark,
             ),
-            widget.subtitle != null
+            Container(
+              padding: EdgeInsets.only(right: 16.0),
+            ),
+            subtitle.replaceAll(RegExp('to'), '').trim().isNotEmpty
                 ? Text(
-                    widget.subtitle,
+                    subtitle,
                     style: widget.selected
                         ? kCardSubtitleTextSelectedStyleDark
                         : kCardSubtitleTextStyleDark,

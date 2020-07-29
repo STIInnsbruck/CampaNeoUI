@@ -1,7 +1,8 @@
 import 'package:campaneo/constants.dart';
+import 'package:campaneo/data/Dtos.dart';
 import 'package:campaneo/data/campaign_fetch.dart';
-import 'package:campaneo/widget/campaign_details.dart';
 import 'package:campaneo/widget/campaign_list_item.dart';
+import 'package:campaneo/widget/queryable_campaign_details.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
@@ -19,6 +20,7 @@ class CampaignsPage extends StatefulWidget {
 class _CampaignsPageState extends State<CampaignsPage> {
   int _selectedIndex = 0;
   bool _isLargeScreen = false;
+  Campaign campaign;
 
   @override
   Widget build(BuildContext context) {
@@ -45,9 +47,15 @@ class _CampaignsPageState extends State<CampaignsPage> {
               child: ListView.builder(
                 itemCount: campaigns.length,
                 itemBuilder: (BuildContext context, int index) {
-                  final campaign = campaigns[index];
+                  final data = campaigns[index];
+                  campaign = Campaign(
+                    id: data['id'],
+                    name: data['name'],
+                    validFrom: data['valid_from'],
+                    validTo: data['valid_to'],
+                  );
                   return CampaignListItemWidget(
-                    name: campaign['name'],
+                    campaign: campaign,
                     //subtitle: 'Subtitle',
                     selected: _selectedIndex == index,
                     onTap: () {
@@ -57,8 +65,7 @@ class _CampaignsPageState extends State<CampaignsPage> {
                       if (!_isLargeScreen) {
                         Navigator.push(context,
                             MaterialPageRoute(builder: (context) {
-                          return CampaignDetailsPage(
-                              campaignId: campaign['id']);
+                          return CampaignDetailsPage(campaignId: campaign.id);
                         }));
                       }
                     },
@@ -69,14 +76,8 @@ class _CampaignsPageState extends State<CampaignsPage> {
             _isLargeScreen
                 ? Expanded(
                     flex: 2,
-                    child: CampaignDetailsWidget(
-                      name: campaigns[_selectedIndex]['name'],
-                      description: campaigns[_selectedIndex]['description'],
-                      imageUrl: campaigns[_selectedIndex]['image_url'],
-                      organizationName: campaigns[_selectedIndex]
-                          ['organization']['name'],
-                      organizationCountry: campaigns[_selectedIndex]
-                          ['organization']['country'],
+                    child: QueryableCampaignDetails(
+                      id: campaign.id,
                     ),
                   )
                 : Container(),
