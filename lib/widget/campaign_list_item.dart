@@ -1,5 +1,5 @@
 import 'package:campaneo/constants.dart';
-import 'package:campaneo/data/Dtos.dart';
+import 'package:campaneo/data/models.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 

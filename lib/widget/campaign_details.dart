@@ -1,4 +1,4 @@
-import 'package:campaneo/data/Dtos.dart';
+import 'package:campaneo/data/models.dart';
 import 'package:flutter/material.dart';
 
 import '../constants.dart';

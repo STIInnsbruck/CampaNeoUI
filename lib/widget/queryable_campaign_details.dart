@@ -1,5 +1,5 @@
-import 'package:campaneo/data/Dtos.dart';
 import 'package:campaneo/data/campaign_fetch.dart';
+import 'package:campaneo/data/models.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
 
@@ -25,24 +25,8 @@ class QueryableCampaignDetails extends StatelessWidget {
         if (result.loading) {
           return Text('Loading');
         }
-        // TODO find way to do this mapping nicer in the DTO
         final data = result.data['getCampaign2'];
-        final organizationData = data['organization'] as LazyCacheMap;
-        final campaignDetails = Campaign(
-          name: data['name'],
-          description: data['description'],
-          organization: Organization(
-            name: organizationData['name'],
-            phone: organizationData['phone_number'],
-            email: organizationData['contact_email'],
-            address: Address(
-              street: organizationData['street'],
-              number: organizationData['street_number'],
-              city: organizationData['city'],
-              country: organizationData['country'],
-            ),
-          ),
-        );
+        final campaignDetails = Campaign.fromLazyCacheMap(data);
         return CampaignDetailsWidget(
           campaign: campaignDetails,
         );
