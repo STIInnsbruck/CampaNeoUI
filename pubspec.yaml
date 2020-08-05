@@ -25,20 +25,11 @@ dependencies:
   cupertino_icons: ^0.1.2
   graphql_flutter: ^3.1.0
   #graphql: ^3.0.1-beta.1
-  dataclass: ^0.3.0+1
 
-# GitHub shows the following incompatibility here:
-#
-# Because every version of flutter_test from sdk depends on collection 1.15.0-nullsafety and
-# dataclass 0.3.0+1 depends on collection >=1.14.0 <1.15.0, flutter_test from sdk is incompatible with dataclass 0.3.0+1.
-# And because no versions of dataclass match >0.3.0+1 <0.4.0, flutter_test from sdk is incompatible with dataclass ^0.3.0+1.
-# Disabling this meanwhile
-#
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  collection: ^1.14.12
-
+    
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
