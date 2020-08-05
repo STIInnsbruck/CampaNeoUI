@@ -25,12 +25,10 @@ dependencies:
   cupertino_icons: ^0.1.2
   graphql_flutter: ^3.1.0
   #graphql: ^3.0.1-beta.1
-  dataclass: ^0.3.0+1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

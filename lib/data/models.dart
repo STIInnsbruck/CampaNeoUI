@@ -1,8 +1,6 @@
-import 'package:dataclass/dataclass.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
 import 'package:intl/intl.dart';
 
-@dataClass
 class Campaign {
   String id;
   String name;
@@ -43,7 +41,6 @@ class Campaign {
       '${_getFormattedDate(validFrom)} to ${_getFormattedDate(validTo)}';
 }
 
-@dataClass
 class Organization {
   final String name;
   final String email;
@@ -63,7 +60,6 @@ class Organization {
             number: map['street_number']);
 }
 
-@dataClass
 class Address {
   final String country;
   final String city;
