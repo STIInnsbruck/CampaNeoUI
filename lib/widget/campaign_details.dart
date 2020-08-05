@@ -1,20 +1,12 @@
+import 'package:campaneo/data/models.dart';
 import 'package:flutter/material.dart';
 
 import '../constants.dart';
 
 class CampaignDetailsWidget extends StatelessWidget {
-  final String name;
-  final String description;
-  final String imageUrl; // TODO
-  final String organizationName;
-  final String organizationCountry;
+  final Campaign campaign;
 
-  CampaignDetailsWidget(
-      {@required this.name,
-      @required this.description,
-      @required this.organizationName,
-      @required this.organizationCountry,
-      this.imageUrl});
+  CampaignDetailsWidget({@required this.campaign});
 
   @override
   Widget build(BuildContext context) {
@@ -47,7 +39,7 @@ class CampaignDetailsWidget extends StatelessWidget {
                 Container(
                   alignment: Alignment.bottomCenter,
                   child: Text(
-                    name,
+                    campaign.name,
                     style: kCampaignTitleTextStyle,
                   ),
                 ),
@@ -56,17 +48,43 @@ class CampaignDetailsWidget extends StatelessWidget {
           ),
           ListTile(
             title: Text(
-              '$organizationName ($organizationCountry)',
+              campaign.organization.name,
+              style: kCardTitleTextStyleDark,
+            ),
+          ),
+          ListTile(
+            title: Text(
+              campaign.organization.address.getPrintableAddress(),
               style: kCardTitleTextStyleDark,
             ),
             leading: Icon(
-              Icons.contacts,
+              Icons.home,
               color: kTextIconColorDark,
             ),
           ),
           ListTile(
             title: Text(
-              description,
+              campaign.organization.phone,
+              style: kCardTitleTextStyleDark,
+            ),
+            leading: Icon(
+              Icons.phone,
+              color: kTextIconColorDark,
+            ),
+          ),
+          ListTile(
+            title: Text(
+              campaign.organization.email,
+              style: kCardTitleTextStyleDark,
+            ),
+            leading: Icon(
+              Icons.email,
+              color: kTextIconColorDark,
+            ),
+          ),
+          ListTile(
+            title: Text(
+              campaign.description,
               style: kCardTitleTextStyleDark,
             ),
             leading: Icon(

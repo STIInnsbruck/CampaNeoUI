@@ -3,14 +3,9 @@ class CampaignFetch {
     query { 
       getCreatedCampaigns2 {
         id
-        description
-        image_url
         name
-        organization {
-          id
-          name
-          country
-        }
+        valid_from
+        valid_to
       } 
     }
   """;
@@ -23,10 +18,17 @@ class CampaignFetch {
         description
         image_url
         name
+        valid_from
+        valid_to
         organization {
           id
           name
           country
+          city
+          contact_email
+          phone_number
+          street
+          street_number
         }
       }
     }
