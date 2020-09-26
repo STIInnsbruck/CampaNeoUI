@@ -2,6 +2,7 @@ import 'package:campaneo/data/models.dart';
 import 'package:flutter/material.dart';
 
 import '../constants.dart';
+import 'campaign_data_dialog.dart';
 
 class CampaignDetailsWidget extends StatelessWidget {
   final Campaign campaign;
@@ -44,6 +45,29 @@ class CampaignDetailsWidget extends StatelessWidget {
                     style: kCampaignTitleTextStyle,
                   ),
                 ),
+                Positioned(
+                  bottom: 10,
+                  right: 10,
+                  // TODO show Join vs Leave alternative by taking into account existing data
+                  child: FlatButton(
+                    child: Text('Join'),
+                    color: kTextIconColorDark,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(20.0),
+                    ),
+                    onPressed: () {
+                      showCampaignDataDialog(context: context)
+                          .then((Map<String, bool> options) {
+                        if (options != null) {
+                          // TODO persist data
+                          options.entries
+                              .map((e) => {print('${e.key}: ${e.value}')})
+                              .toList();
+                        }
+                      });
+                    },
+                  ),
+                )
               ],
             ),
           ),
