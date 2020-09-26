@@ -23,12 +23,13 @@ class _CampaignListItemWidgetState extends State<CampaignListItemWidget> {
   Widget build(BuildContext context) {
     final subtitle = widget.campaign.getDateRange();
 
-    return Card(
-      margin: EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),
+    return Container(
       color: widget.selected
           ? kCardBackgroundSelectedColorDark
-          : kCardBackgroundColorDark,
+          : kBackgroundColorDark,
       child: ListTile(
+        focusColor: kCardBackgroundSelectedColorDark,
+        hoverColor: kCardBackgroundColorDark,
         onTap: widget.onTap,
         contentPadding: EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),
         leading: Container(
