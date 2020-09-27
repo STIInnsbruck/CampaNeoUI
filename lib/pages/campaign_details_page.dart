@@ -1,4 +1,4 @@
-import 'package:campaneo/widget/queryable_campaign_details.dart';
+import 'package:campaneo/widget/widgets.dart';
 import 'package:flutter/material.dart';
 
 import '../constants.dart';

@@ -1,7 +1,5 @@
 import 'package:campaneo/constants.dart';
-import 'package:campaneo/pages/AboutPage.dart';
-import 'package:campaneo/pages/base_page.dart';
-import 'package:campaneo/pages/vehicle_information_page.dart';
+import 'package:campaneo/pages/pages.dart';
 import 'package:flutter/material.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
 
@@ -16,11 +14,13 @@ class CampaneoApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GraphQLProvider(
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         home: BasePage(),
         routes: {
           VehicleInformationPage.routeName: (BuildContext context) =>
               VehicleInformationPage(),
-          AboutPage.routeName: (BuildContext context) => AboutPage(),
+          // TODO add About page to main menu
+          //AboutPage.routeName: (BuildContext context) => AboutPage(),
         },
         theme: ThemeData(
           cardTheme: CardTheme(

@@ -2,7 +2,7 @@ import 'package:campaneo/data/models.dart';
 import 'package:flutter/material.dart';
 
 import '../constants.dart';
-import 'campaign_data_dialog.dart';
+import 'widgets.dart';
 
 class CampaignDetailsWidget extends StatelessWidget {
   final Campaign campaign;

@@ -1,9 +1,9 @@
 import 'package:campaneo/data/campaign_fetch.dart';
 import 'package:campaneo/data/models.dart';
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
 
-import 'campaign_details.dart';
+import 'widgets.dart';
 
 class QueryableCampaignDetails extends StatelessWidget {
   final String id;
