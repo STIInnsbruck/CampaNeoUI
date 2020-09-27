@@ -1,4 +1,4 @@
-import 'package:campaneo/widget/queryable_campaign_details.dart';
+import 'package:campaneo/widget/widgets.dart';
 import 'package:flutter/material.dart';
 
 import '../constants.dart';
@@ -24,10 +24,7 @@ class _CampaignDetailsPageState extends State<CampaignDetailsPage> {
       return Container();
     } else {
       return Scaffold(
-        backgroundColor: kBackgroundColorDark,
-        appBar: AppBar(
-          backgroundColor: kBackgroundColorDark,
-        ),
+        appBar: AppBar(),
         body: QueryableCampaignDetails(
           id: widget.campaignId,
         ),

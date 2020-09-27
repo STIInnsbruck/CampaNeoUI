@@ -24,29 +24,32 @@ class _CampaignListItemWidgetState extends State<CampaignListItemWidget> {
     final subtitle = widget.campaign.getDateRange();
 
     return Container(
-      color: widget.selected
-          ? kCardBackgroundSelectedColorDark
-          : kBackgroundColorDark,
+      //color: widget.selected
+      //    ? kCardBackgroundSelectedColorDark
+      //    : kBackgroundColorDark,
       child: ListTile(
-        focusColor: kCardBackgroundSelectedColorDark,
-        hoverColor: kCardBackgroundColorDark,
+        //focusColor: kCardBackgroundSelectedColorDark,
+        //hoverColor: kCardBackgroundColorDark,
         onTap: widget.onTap,
         contentPadding: EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),
-        leading: Container(
-          padding: EdgeInsets.only(right: 12.0),
-          decoration: BoxDecoration(
-            border: Border(
-              right: BorderSide(width: 1.0, color: kDividerColorDark),
-            ),
-          ),
-          child: Icon(
-            Icons.announcement,
-            size: 35,
-            color: widget.selected
-                ? kTextIconSelectedColorDark
-                : kTextIconColorDark,
-          ),
-        ),
+        // leading: Container(
+        //   padding: EdgeInsets.only(right: 12.0),
+        //   decoration: BoxDecoration(
+        //     border: Border(
+        //       right: BorderSide(
+        //         width: 1.0,
+        //         //color: kDividerColorDark,
+        //       ),
+        //     ),
+        //   ),
+        //   child: Icon(
+        //     Icons.announcement,
+        //     size: 35,
+        //     //color: widget.selected
+        //     //    ? kTextIconSelectedColorDark
+        //     //    : kTextIconColorDark,
+        //   ),
+        // ),
         title: Text(
           widget.campaign.name,
           style: widget.selected
@@ -57,9 +60,9 @@ class _CampaignListItemWidgetState extends State<CampaignListItemWidget> {
           children: <Widget>[
             Icon(
               Icons.date_range,
-              color: widget.selected
-                  ? kTextIconSelectedColorDark
-                  : kTextIconColorDark,
+              //color: widget.selected
+              //    ? kTextIconSelectedColorDark
+              //    : kTextIconColorDark,
             ),
             Container(
               padding: EdgeInsets.only(right: 16.0),
@@ -77,8 +80,8 @@ class _CampaignListItemWidgetState extends State<CampaignListItemWidget> {
         trailing: Icon(
           Icons.keyboard_arrow_right,
           size: 30,
-          color:
-              widget.selected ? kTextIconSelectedColorDark : kTextIconColorDark,
+          //color:
+          //    widget.selected ? kTextIconSelectedColorDark : kTextIconColorDark,
         ),
       ),
     );

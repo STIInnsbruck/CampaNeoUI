@@ -1,13 +1,12 @@
 import 'package:campaneo/constants.dart';
 import 'package:campaneo/data/campaign_fetch.dart';
 import 'package:campaneo/data/models.dart';
-import 'package:campaneo/widget/campaign_list_item.dart';
-import 'package:campaneo/widget/queryable_campaign_details.dart';
+import 'package:campaneo/widget/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
 
-import 'campaign_details_page.dart';
+import 'pages.dart';
 
 class CampaignsPage extends StatefulWidget {
   static const String routeName = '/campaigns';

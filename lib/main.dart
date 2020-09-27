@@ -1,38 +1,36 @@
-import 'package:campaneo/constants.dart';
-import 'package:campaneo/pages/AboutPage.dart';
-import 'package:campaneo/pages/base_page.dart';
-import 'package:campaneo/pages/vehicle_information_page.dart';
+import 'package:campaneo/pages/pages.dart';
+import 'package:campaneo/themes/theme_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
+import 'package:provider/provider.dart';
 
 import 'data/api.dart';
 
-void main() => runApp(
-      CampaneoApp(),
-    );
+void main() => runApp(CampaneoApp());
 
 class CampaneoApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return GraphQLProvider(
-      child: MaterialApp(
-        home: BasePage(),
-        routes: {
-          VehicleInformationPage.routeName: (BuildContext context) =>
-              VehicleInformationPage(),
-          AboutPage.routeName: (BuildContext context) => AboutPage(),
-        },
-        theme: ThemeData(
-          cardTheme: CardTheme(
-            elevation: 8.0,
-            color: kCardBackgroundColorDark,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(8.0),
+    return ChangeNotifierProvider(
+      create: (_) => ThemeManager(),
+      child: Consumer<ThemeManager>(
+        builder: (BuildContext context, ThemeManager themeManager, _) {
+          return GraphQLProvider(
+            child: MaterialApp(
+              debugShowCheckedModeBanner: false,
+              home: BasePage(),
+              theme: themeManager.themeData,
+              routes: {
+                VehicleInformationPage.routeName: (BuildContext context) =>
+                    VehicleInformationPage(),
+                // TODO add About page to main menu
+                //AboutPage.routeName: (BuildContext context) => AboutPage(),
+              },
             ),
-          ),
-        ),
+            client: ApiClient.initClient(),
+          );
+        },
       ),
-      client: ApiClient.initClient(),
     );
   }
 }

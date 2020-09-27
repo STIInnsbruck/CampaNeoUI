@@ -1,9 +1,7 @@
-import 'package:campaneo/constants.dart';
-import 'package:campaneo/pages/campaings_page.dart';
-import 'package:campaneo/pages/settings_page.dart';
-import 'package:campaneo/pages/vehicle_information_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+
+import 'pages.dart';
 
 class BasePage extends StatefulWidget {
   @override
@@ -17,11 +15,6 @@ class _BasePageState extends State<BasePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: kBackgroundColorDark,
-      appBar: AppBar(
-        title: Text("CampaNeo"),
-        backgroundColor: kBackgroundColorDark,
-      ),
       bottomNavigationBar: _buildBottomNavigationBar(),
       body: _selectedPage,
     );
@@ -50,17 +43,6 @@ class _BasePageState extends State<BasePage> {
           ],
           elevation: 8.0,
           type: BottomNavigationBarType.fixed,
-          backgroundColor: kBackgroundColorDark,
-          unselectedItemColor: kTextIconColorDark,
-          selectedItemColor: kTextIconSelectedColorDark,
-          unselectedIconTheme: IconThemeData(
-            color: kTextIconColorDark,
-            size: 40.0,
-          ),
-          selectedIconTheme: IconThemeData(
-            color: kTextIconSelectedColorDark,
-            size: 40.0,
-          ),
           currentIndex: _selectedIndex,
           onTap: (index) {
             setState(() {

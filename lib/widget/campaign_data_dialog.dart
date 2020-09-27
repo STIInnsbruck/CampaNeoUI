@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../constants.dart';
-
 Future<Map<String, bool>> showCampaignDataDialog(
     {@required BuildContext context}) async {
   assert(context != null);
@@ -36,7 +34,6 @@ class _CampaignDataDialogState extends State<_CampaignDataDialog> {
       title: Text("Do you agree to share the following data?"),
       actions: [
         FlatButton(
-          color: kTextIconColorDark,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(20.0),
           ),
@@ -46,7 +43,6 @@ class _CampaignDataDialogState extends State<_CampaignDataDialog> {
           child: Text('Accept'),
         ),
         FlatButton(
-          color: kTextIconColorDark,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(20.0),
           ),
