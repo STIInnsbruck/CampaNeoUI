@@ -1,4 +1,3 @@
-import 'package:campaneo/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -16,7 +15,6 @@ class _BasePageState extends State<BasePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: kBackgroundColorDark,
       bottomNavigationBar: _buildBottomNavigationBar(),
       body: _selectedPage,
     );
@@ -45,17 +43,6 @@ class _BasePageState extends State<BasePage> {
           ],
           elevation: 8.0,
           type: BottomNavigationBarType.fixed,
-          backgroundColor: kBackgroundColorDark,
-          unselectedItemColor: kTextIconColorDark,
-          selectedItemColor: kTextIconSelectedColorDark,
-          unselectedIconTheme: IconThemeData(
-            color: kTextIconColorDark,
-            size: 40.0,
-          ),
-          selectedIconTheme: IconThemeData(
-            color: kTextIconSelectedColorDark,
-            size: 40.0,
-          ),
           currentIndex: _selectedIndex,
           onTap: (index) {
             setState(() {

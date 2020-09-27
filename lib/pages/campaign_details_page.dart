@@ -24,10 +24,7 @@ class _CampaignDetailsPageState extends State<CampaignDetailsPage> {
       return Container();
     } else {
       return Scaffold(
-        backgroundColor: kBackgroundColorDark,
-        appBar: AppBar(
-          backgroundColor: kBackgroundColorDark,
-        ),
+        appBar: AppBar(),
         body: QueryableCampaignDetails(
           id: widget.campaignId,
         ),

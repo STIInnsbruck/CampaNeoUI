@@ -12,10 +12,6 @@ class CampaignDetailsWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: kCardBackgroundColorDark,
-      margin: EdgeInsets.only(
-        left: 10.0,
-      ),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -51,7 +47,7 @@ class CampaignDetailsWidget extends StatelessWidget {
                   // TODO show Join vs Leave alternative by taking into account existing data
                   child: FlatButton(
                     child: Text('Join'),
-                    color: kTextIconColorDark,
+                    //color: kTextIconColorDark,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20.0),
                     ),
@@ -88,7 +84,6 @@ class CampaignDetailsWidget extends StatelessWidget {
                   ),
                   leading: Icon(
                     Icons.home,
-                    color: kTextIconColorDark,
                   ),
                 ),
                 ListTile(
@@ -98,7 +93,6 @@ class CampaignDetailsWidget extends StatelessWidget {
                   ),
                   leading: Icon(
                     Icons.phone,
-                    color: kTextIconColorDark,
                   ),
                 ),
                 ListTile(
@@ -108,7 +102,6 @@ class CampaignDetailsWidget extends StatelessWidget {
                   ),
                   leading: Icon(
                     Icons.email,
-                    color: kTextIconColorDark,
                   ),
                 ),
                 ListTile(
@@ -118,7 +111,6 @@ class CampaignDetailsWidget extends StatelessWidget {
                   ),
                   leading: Icon(
                     Icons.announcement,
-                    color: kTextIconColorDark,
                   ),
                 ),
               ],
