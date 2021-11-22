@@ -1,0 +1,3327 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/CampaNeo/ontologies/2020/4/Consent_Sensor"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/CampaNeo/ontologies/2020/4/Consent_Sensor">
+    <Prefix name="" IRI="http://www.semanticweb.org/CampaNeo/ontologies/2020/4/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="skos" IRI="http://www.w3.org/2004/02/skos/core#"/>
+    <Prefix name="terms" IRI="http://purl.org/dc/terms/"/>
+    <Prefix name="Consent_Sensor" IRI="http://www.semanticweb.org/CampaNeo/ontologies/2020/4/Consent_Sensor#"/>
+    <Prefix name="Consent_Sensor1" IRI="http://www.semanticweb.org/CampaNeo/ontologies/2020/4/Consent_Sensor#"/>
+    <Prefix name="AnnotationVocabulary" IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/"/>
+    <Prefix name="untitled-ontology-21" IRI="http://www.semanticweb.org/CampaNeo/ontologies/2020/4/"/>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:About"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Active"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Agreement"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:AgricultureOrnagisation"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Anonymize"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Area"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:AutomobileOrganisation"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Availability"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Available"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:BusinessOrganisation"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Campaign"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:CampaignController"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:CampaignCreator"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Capacity"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:CarSensor"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:City"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Clothes"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Collection"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:CollectionType"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Commercial"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Consent"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:ConstructionOrganisation"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:ContactDetails"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Country"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Crowdsourcing"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Data"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:DataVolume"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Deletion"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Department"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Destroy"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Detect"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Device"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Duration"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:EducationalOgranisation"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:ElectronicsOtganisation"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:EmailAddress"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Encryption"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:End"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Erase"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Food"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Fuel"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:GPS"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Given"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:GovernmentOrganisation"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:HealthcareOrganisation"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:InvolvedResearchers"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Latitude"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Longitude"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:MedicineOrganisation"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:MobilePhone"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:NewsOrganisation"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:NonProfitOrganisation"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:NotActive"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:NotGiven"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:NotRequested"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Observe"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Oxygen"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Pending"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:PhysicalAddress"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:PostCode"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:PreExisting"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Problems"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:ProcessDuration"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:ProcessEnd"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:ProcessInitiator"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:ProcessPurpose"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:ProcessStart"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:ProfitOrganisation"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Purpose"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:RealTime"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:RealTimeAcquisition"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Reason"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Requested"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:RequestedBy"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:RequiredData"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Research"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:ResearchGroup"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:ResearchGroupLeader"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:ResearchGroupName"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Result"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:RetailOrganisation"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Reuse"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Security"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:SharingEntities"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Similarities"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Source"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Speed"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Start"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Storage"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:StorageLocation"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Street"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:StreetNumber"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Task"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Transfer"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:TransportOrganisation"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:TwoFactorAuthorization"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:University"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Usage"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:UsedApproach"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:User"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:Validation"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:ValidationTime"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:executionDate"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-21:online_contract"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConsentSubject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Proof"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProofOfConcent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Revoke"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ConditionPrecedent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/Contract"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractualDefinition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractualElement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/MutualContractualAgreement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/PromissoryNote"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/TermSheet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/TransferableContract"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/UnilateralContract"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/VerbalContract"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/WrittenContract"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/DateTimeStamp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostCodeArea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/BusinessCenter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/County"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/FederalCapitalArea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/FederalState"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/Municipality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/Parcel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/PhysicalLocation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/PopulatedPlace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/RealEstate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://w3id.org/GConsent#DataAdaptation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://w3id.org/GConsent#DataAlignment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://w3id.org/GConsent#DataAlteration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://w3id.org/GConsent#DataCollection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://w3id.org/GConsent#DataCombination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://w3id.org/GConsent#DataConsultation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://w3id.org/GConsent#DataDestruction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://w3id.org/GConsent#DataDisclosureByTransmission"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://w3id.org/GConsent#DataDissemination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://w3id.org/GConsent#DataErasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://w3id.org/GConsent#DataRecording"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://w3id.org/GConsent#DataRestriction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://w3id.org/GConsent#DataRetrieval"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://w3id.org/GConsent#DataSharing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://w3id.org/GConsent#DataStructuring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://w3id.org/GConsent#Processing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://w3id.org/GConsent#Purpose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://w3id.org/GConsent#Status"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://w3id.org/GConsent#StatusInvalidForProcessing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://w3id.org/GConsent#StatusValidForProcessing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/CountrySubdivision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/GeographicRegion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/GeopoliticalEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Territory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/Language"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:ControlledBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:RequiresData"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:belongsToTheArea"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasAvailability"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasCapacity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasConsent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasContactDetails"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasDuration"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasEndDate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasGPScoordinates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasLatitude"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasLongitude"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasName"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasPhysicalAddress"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasProcess"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasProcessDuration"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasProcessEnd"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasProcessPurpose"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasProcessStart"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasStartDate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasStatus"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasStorageLocation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasValidationTime"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isDataSource"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isInitiatedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isProvidedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isProvidedTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isRequestedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isSecuredBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isSignedOnline"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isUsedFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CreatedCampaign"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ParticipatesIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCapacity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasConsentBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEmail"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProofOfAgreement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProofOfConsent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPurpose"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCreatedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPartOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isProvidedFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasContractualElement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasExecutionDateTimeStamp"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasNonBindingTerms"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/isAbout"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isMandatedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/usesAdministrativeLanguage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#City"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Country"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Duration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PostCode"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Street"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#StreetNumber"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasEmail"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasEndDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasGPSData"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasLatitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasLongitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMobilePhoneNumber"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPhysicalAddress"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasStartDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/isAssignable"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/hasEnglishFullName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/hasEnglishShortName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/hasEnglishShortNameInCapitals"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/hasFrenchFullName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/hasFrenchShortName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/hasFrenchShortNameInCapitals"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/isIndependent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anelia_Kurteva"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anna_Fensel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Artificial_Intelligence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Computer_Science"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dieter_Fensel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GPS_Data"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Given"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Innsbruck_Government"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Knowledge_Graphs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ontology_Development"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Road"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Road_block_detection"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#STI_Innsbruck"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#University_of_Innsbruck"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#&apos;StreetsSmart&apos;"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#-119"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#100GB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#12days"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#20/10/2020"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#21/10/2020"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Server10/23"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:source"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="skos:editorialNote"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="skos:note"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="skos:scopeNote"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:adaptedFrom"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:explanatoryNote"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:synonym"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/CampeNeo/ontologies/2020/4/User"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/CamoaNeo/ontologies/2020/4/Data"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="untitled-ontology-21:CampaignCreator"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Organization"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="untitled-ontology-21:CampaignCreator"/>
+        <Class abbreviatedIRI="untitled-ontology-21:RequestedBy"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="untitled-ontology-21:Organization"/>
+        <Class abbreviatedIRI="untitled-ontology-21:RequestedBy"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:About"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Agreement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Active"/>
+        <Class IRI="https://w3id.org/GConsent#Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:AgricultureOrnagisation"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Analysis"/>
+        <Class IRI="https://w3id.org/GConsent#Processing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Anonymize"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Deletion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Area"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:AutomobileOrganisation"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Availability"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Available"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Availability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:BusinessOrganisation"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:CampaignController"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Campaign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:CampaignCreator"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Campaign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Capacity"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Storage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:CarSensor"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:City"/>
+        <Class abbreviatedIRI="untitled-ontology-21:PhysicalAddress"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Clothes"/>
+        <Class abbreviatedIRI="untitled-ontology-21:RetailOrganisation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Collection"/>
+        <Class IRI="https://w3id.org/GConsent#DataCollection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:CollectionType"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Collection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Commercial"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Usage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:ConstructionOrganisation"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:ContactDetails"/>
+        <Class abbreviatedIRI="untitled-ontology-21:User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Country"/>
+        <Class abbreviatedIRI="untitled-ontology-21:PhysicalAddress"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Crowdsourcing"/>
+        <Class abbreviatedIRI="untitled-ontology-21:CollectionType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:DataVolume"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Crowdsourcing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Deletion"/>
+        <Class IRI="https://w3id.org/GConsent#Processing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Department"/>
+        <Class abbreviatedIRI="untitled-ontology-21:University"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Destroy"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Deletion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Detect"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Analysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Device"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Duration"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Campaign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:EducationalOgranisation"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:ElectronicsOtganisation"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:EmailAddress"/>
+        <Class abbreviatedIRI="untitled-ontology-21:ContactDetails"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Encryption"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:End"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Campaign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Erase"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Deletion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Food"/>
+        <Class abbreviatedIRI="untitled-ontology-21:RetailOrganisation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Fuel"/>
+        <Class abbreviatedIRI="untitled-ontology-21:CarSensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:GPS"/>
+        <Class abbreviatedIRI="untitled-ontology-21:CarSensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Given"/>
+        <Class IRI="https://w3id.org/GConsent#Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:GovernmentOrganisation"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:HealthcareOrganisation"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:InvolvedResearchers"/>
+        <Class abbreviatedIRI="untitled-ontology-21:ResearchGroup"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Latitude"/>
+        <Class abbreviatedIRI="untitled-ontology-21:GPS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Longitude"/>
+        <Class abbreviatedIRI="untitled-ontology-21:GPS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:MedicineOrganisation"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:MobilePhone"/>
+        <Class abbreviatedIRI="untitled-ontology-21:ContactDetails"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:NewsOrganisation"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:NonProfitOrganisation"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:NotActive"/>
+        <Class IRI="https://w3id.org/GConsent#Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:NotGiven"/>
+        <Class IRI="https://w3id.org/GConsent#Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:NotRequested"/>
+        <Class IRI="https://w3id.org/GConsent#Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Observe"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Analysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Oxygen"/>
+        <Class abbreviatedIRI="untitled-ontology-21:CarSensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Pending"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Requested"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:PhysicalAddress"/>
+        <Class abbreviatedIRI="untitled-ontology-21:ContactDetails"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:PostCode"/>
+        <Class abbreviatedIRI="untitled-ontology-21:PhysicalAddress"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:PreExisting"/>
+        <Class abbreviatedIRI="untitled-ontology-21:CollectionType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Problems"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Detect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:ProcessDuration"/>
+        <Class IRI="https://w3id.org/GConsent#Processing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:ProcessEnd"/>
+        <Class IRI="https://w3id.org/GConsent#Processing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:ProcessInitiator"/>
+        <Class IRI="https://w3id.org/GConsent#Processing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:ProcessPurpose"/>
+        <Class IRI="https://w3id.org/GConsent#Processing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:ProcessStart"/>
+        <Class IRI="https://w3id.org/GConsent#Processing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:ProfitOrganisation"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Purpose"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Campaign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:RealTime"/>
+        <Class abbreviatedIRI="untitled-ontology-21:CollectionType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:RealTimeAcquisition"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Availability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Reason"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Consent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Reason"/>
+        <Class abbreviatedIRI="untitled-ontology-21:NotGiven"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Requested"/>
+        <Class IRI="https://w3id.org/GConsent#Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:RequestedBy"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:RequiredData"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Campaign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Research"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Usage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:ResearchGroup"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Department"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:ResearchGroupLeader"/>
+        <Class abbreviatedIRI="untitled-ontology-21:ResearchGroup"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:ResearchGroupName"/>
+        <Class abbreviatedIRI="untitled-ontology-21:ResearchGroup"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Result"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Pending"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:RetailOrganisation"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Reuse"/>
+        <Class IRI="https://w3id.org/GConsent#DataSharing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Security"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Storage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Sensor"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:SharingEntities"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Transfer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Similarities"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Detect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Source"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Speed"/>
+        <Class abbreviatedIRI="untitled-ontology-21:CarSensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Start"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Campaign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:StorageLocation"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Storage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Street"/>
+        <Class abbreviatedIRI="untitled-ontology-21:PhysicalAddress"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:StreetNumber"/>
+        <Class abbreviatedIRI="untitled-ontology-21:PhysicalAddress"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Task"/>
+        <Class abbreviatedIRI="untitled-ontology-21:ResearchGroup"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Transfer"/>
+        <Class IRI="https://w3id.org/GConsent#DataSharing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:TransportOrganisation"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:TwoFactorAuthorization"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:University"/>
+        <Class abbreviatedIRI="untitled-ontology-21:EducationalOgranisation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Usage"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:UsedApproach"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Anonymize"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:User"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:Validation"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Given"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:ValidationTime"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Validation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:executionDate"/>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/DateTimeStamp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-21:online_contract"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConsentSubject"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Consent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Name"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Campaign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Proof"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Agreement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProofOfConcent"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Consent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Revoke"/>
+        <Class IRI="https://w3id.org/GConsent#Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Type"/>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/Contract"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ConditionPrecedent"/>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractualElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/Contract"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Agreement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/Contract"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasContractualElement"/>
+            <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractualElement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/Contract"/>
+        <ObjectMinCardinality cardinality="0">
+            <ObjectProperty IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasExecutionDateTimeStamp"/>
+            <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/DateTimeStamp"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/Contract"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/isAssignable"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractualDefinition"/>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractualElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractualElement"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Agreement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/MutualContractualAgreement"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/PromissoryNote"/>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/UnilateralContract"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/PromissoryNote"/>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/WrittenContract"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/TermSheet"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Agreement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/TransferableContract"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/UnilateralContract"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/VerbalContract"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/WrittenContract"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/DateTimeStamp"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Agreement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostCodeArea"/>
+        <Class IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/GeographicRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/BusinessCenter"/>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/Municipality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/County"/>
+        <Class IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/CountrySubdivision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/FederalCapitalArea"/>
+        <Class IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/GeopoliticalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/FederalState"/>
+        <Class IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/CountrySubdivision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/Municipality"/>
+        <Class IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/GeopoliticalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/Parcel"/>
+        <Class IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/GeographicRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/PhysicalLocation"/>
+        <Class IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/PopulatedPlace"/>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/PhysicalLocation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/RealEstate"/>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/PhysicalLocation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://w3id.org/GConsent#DataAdaptation"/>
+        <Class IRI="https://w3id.org/GConsent#Processing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://w3id.org/GConsent#DataAlignment"/>
+        <Class IRI="https://w3id.org/GConsent#Processing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://w3id.org/GConsent#DataAlteration"/>
+        <Class IRI="https://w3id.org/GConsent#Processing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://w3id.org/GConsent#DataCollection"/>
+        <Class IRI="https://w3id.org/GConsent#Processing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://w3id.org/GConsent#DataCombination"/>
+        <Class IRI="https://w3id.org/GConsent#Processing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://w3id.org/GConsent#DataConsultation"/>
+        <Class IRI="https://w3id.org/GConsent#Processing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://w3id.org/GConsent#DataDestruction"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Deletion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://w3id.org/GConsent#DataDisclosureByTransmission"/>
+        <Class IRI="https://w3id.org/GConsent#Processing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://w3id.org/GConsent#DataDissemination"/>
+        <Class IRI="https://w3id.org/GConsent#Processing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://w3id.org/GConsent#DataErasure"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Deletion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://w3id.org/GConsent#DataRecording"/>
+        <Class IRI="https://w3id.org/GConsent#Processing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://w3id.org/GConsent#DataRestriction"/>
+        <Class IRI="https://w3id.org/GConsent#Processing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://w3id.org/GConsent#DataRetrieval"/>
+        <Class IRI="https://w3id.org/GConsent#Processing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://w3id.org/GConsent#DataSharing"/>
+        <Class IRI="https://w3id.org/GConsent#Processing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://w3id.org/GConsent#DataStructuring"/>
+        <Class IRI="https://w3id.org/GConsent#Processing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://w3id.org/GConsent#Purpose"/>
+        <Class IRI="https://w3id.org/GConsent#Processing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://w3id.org/GConsent#Status"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Consent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://w3id.org/GConsent#StatusInvalidForProcessing"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Validation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://w3id.org/GConsent#StatusValidForProcessing"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Validation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Country"/>
+        <Class IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/GeopoliticalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Country"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/usesAdministrativeLanguage"/>
+            <Class IRI="https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/Language"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Country"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/hasEnglishShortName"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Country"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/hasEnglishShortNameInCapitals"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Country"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/hasFrenchShortName"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Country"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/hasFrenchShortNameInCapitals"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Country"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/isIndependent"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Country"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/hasEnglishFullName"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Country"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/hasFrenchFullName"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/CountrySubdivision"/>
+        <Class IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/GeopoliticalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/GeographicRegion"/>
+        <Class IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/GeopoliticalEntity"/>
+        <Class IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/GeographicRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Location"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Agreement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Territory"/>
+        <Class IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/GeopoliticalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/Language"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Agreement"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/MutualContractualAgreement"/>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/UnilateralContract"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/VerbalContract"/>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/WrittenContract"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="https://w3id.org/GConsent#StatusInvalidForProcessing"/>
+        <Class IRI="https://w3id.org/GConsent#StatusValidForProcessing"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-21:InvolvedResearchers"/>
+        <NamedIndividual IRI="#Anelia_Kurteva"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-21:User"/>
+        <NamedIndividual IRI="#Anelia_Kurteva"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-21:InvolvedResearchers"/>
+        <NamedIndividual IRI="#Anna_Fensel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-21:ResearchGroupLeader"/>
+        <NamedIndividual IRI="#Anna_Fensel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-21:Task"/>
+        <NamedIndividual IRI="#Artificial_Intelligence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-21:Department"/>
+        <NamedIndividual IRI="#Computer_Science"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-21:ResearchGroupLeader"/>
+        <NamedIndividual IRI="#Dieter_Fensel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-21:GPS"/>
+        <NamedIndividual IRI="#GPS_Data"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-21:RequiredData"/>
+        <NamedIndividual IRI="#GPS_Data"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-21:Consent"/>
+        <NamedIndividual IRI="#Given"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://w3id.org/GConsent#Status"/>
+        <NamedIndividual IRI="#Given"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-21:CampaignCreator"/>
+        <NamedIndividual IRI="#Innsbruck_Government"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-21:RequestedBy"/>
+        <NamedIndividual IRI="#Innsbruck_Government"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-21:Task"/>
+        <NamedIndividual IRI="#Knowledge_Graphs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-21:Task"/>
+        <NamedIndividual IRI="#Ontology_Development"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Name"/>
+        <NamedIndividual IRI="#Road"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-21:Purpose"/>
+        <NamedIndividual IRI="#Road_block_detection"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-21:ResearchGroup"/>
+        <NamedIndividual IRI="#STI_Innsbruck"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-21:ResearchGroupName"/>
+        <NamedIndividual IRI="#STI_Innsbruck"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-21:University"/>
+        <NamedIndividual IRI="#University_of_Innsbruck"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Name"/>
+        <NamedIndividual IRI="#&apos;StreetsSmart&apos;"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-21:Capacity"/>
+        <NamedIndividual IRI="#100GB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-21:Duration"/>
+        <NamedIndividual IRI="#12days"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-21:Start"/>
+        <NamedIndividual IRI="#20/10/2020"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-21:End"/>
+        <NamedIndividual IRI="#21/10/2020"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-21:Storage"/>
+        <NamedIndividual IRI="#Server10/23"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParticipatesIn"/>
+        <NamedIndividual IRI="#Anelia_Kurteva"/>
+        <NamedIndividual IRI="#Road"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ParticipatesIn"/>
+        <NamedIndividual IRI="#Anelia_Kurteva"/>
+        <NamedIndividual IRI="#&apos;StreetsSmart&apos;"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CreatedCampaign"/>
+        <NamedIndividual IRI="#Innsbruck_Government"/>
+        <NamedIndividual IRI="#Road"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:RequiresData"/>
+        <NamedIndividual IRI="#Road"/>
+        <NamedIndividual IRI="#GPS_Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasConsent"/>
+        <NamedIndividual IRI="#Road"/>
+        <NamedIndividual IRI="#Given"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasDuration"/>
+        <NamedIndividual IRI="#Road"/>
+        <NamedIndividual IRI="#12days"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasEndDate"/>
+        <NamedIndividual IRI="#Road"/>
+        <NamedIndividual IRI="#21/10/2020"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasStartDate"/>
+        <NamedIndividual IRI="#Road"/>
+        <NamedIndividual IRI="#20/10/2020"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isProvidedBy"/>
+        <NamedIndividual IRI="#Road"/>
+        <NamedIndividual IRI="#Anelia_Kurteva"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasConsentBy"/>
+        <NamedIndividual IRI="#Road"/>
+        <NamedIndividual IRI="#Anelia_Kurteva"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPurpose"/>
+        <NamedIndividual IRI="#Road"/>
+        <NamedIndividual IRI="#Road_block_detection"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isCreatedBy"/>
+        <NamedIndividual IRI="#Road"/>
+        <NamedIndividual IRI="#Innsbruck_Government"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPartOf"/>
+        <NamedIndividual IRI="#STI_Innsbruck"/>
+        <NamedIndividual IRI="#University_of_Innsbruck"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:RequiresData"/>
+        <NamedIndividual IRI="#12days"/>
+        <NamedIndividual IRI="#GPS_Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasCapacity"/>
+        <NamedIndividual IRI="#Server10/23"/>
+        <NamedIndividual IRI="#100GB"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#City"/>
+        <NamedIndividual IRI="#Anelia_Kurteva"/>
+        <Literal>Innsbruck</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Country"/>
+        <NamedIndividual IRI="#Anelia_Kurteva"/>
+        <Literal>Austria</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PostCode"/>
+        <NamedIndividual IRI="#Anelia_Kurteva"/>
+        <Literal>6020</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Street"/>
+        <NamedIndividual IRI="#Anelia_Kurteva"/>
+        <Literal>Innstrasse</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#StreetNumber"/>
+        <NamedIndividual IRI="#Anelia_Kurteva"/>
+        <Literal>81</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasEmail"/>
+        <NamedIndividual IRI="#Anelia_Kurteva"/>
+        <Literal xml:lang="sti2.at">anelia.kurteva</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMobilePhoneNumber"/>
+        <NamedIndividual IRI="#Anelia_Kurteva"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">07746729348</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasLatitude"/>
+        <NamedIndividual IRI="#GPS_Data"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasLongitude"/>
+        <NamedIndividual IRI="#GPS_Data"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">-119</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:ControlledBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:belongsToTheArea"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasAvailability"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasCapacity"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasContactDetails"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasDuration"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasGPScoordinates"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasLatitude"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasLongitude"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasName"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasPhysicalAddress"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasProcess"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasProcessDuration"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasProcessEnd"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasProcessPurpose"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasProcessStart"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasStorageLocation"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isDataSource"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isInitiatedBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isProvidedBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isProvidedTo"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isRequestedBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isSecuredBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:ControlledBy"/>
+        <Class abbreviatedIRI="untitled-ontology-21:CampaignController"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:RequiresData"/>
+        <Class abbreviatedIRI="untitled-ontology-21:RequiredData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:belongsToTheArea"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Area"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasAvailability"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Availability"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasCapacity"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Capacity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasContactDetails"/>
+        <Class abbreviatedIRI="untitled-ontology-21:ContactDetails"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasDuration"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Duration"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasEndDate"/>
+        <Class abbreviatedIRI="untitled-ontology-21:End"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasGPScoordinates"/>
+        <Class abbreviatedIRI="untitled-ontology-21:CarSensor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasGPScoordinates"/>
+        <Class abbreviatedIRI="untitled-ontology-21:GPS"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasLatitude"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Latitude"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasLongitude"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Longitude"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasPhysicalAddress"/>
+        <Class abbreviatedIRI="untitled-ontology-21:PhysicalAddress"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasProcessDuration"/>
+        <Class abbreviatedIRI="untitled-ontology-21:ProcessDuration"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasProcessEnd"/>
+        <Class abbreviatedIRI="untitled-ontology-21:ProcessEnd"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasProcessPurpose"/>
+        <Class abbreviatedIRI="untitled-ontology-21:ProcessPurpose"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasProcessStart"/>
+        <Class abbreviatedIRI="untitled-ontology-21:ProcessStart"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasStartDate"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Start"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasStorageLocation"/>
+        <Class abbreviatedIRI="untitled-ontology-21:StorageLocation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasValidationTime"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Validation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isDataSource"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Sensor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isInitiatedBy"/>
+        <Class abbreviatedIRI="untitled-ontology-21:ProcessInitiator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isProvidedTo"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Consent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isRequestedBy"/>
+        <Class abbreviatedIRI="untitled-ontology-21:RequestedBy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isSecuredBy"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Security"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isSignedOnline"/>
+        <Class abbreviatedIRI="untitled-ontology-21:online_contract"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isUsedFor"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Usage"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CreatedCampaign"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Campaign"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CreatedCampaign"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CreatedCampaign"/>
+        <Class abbreviatedIRI="untitled-ontology-21:User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCapacity"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Storage"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasProofOfConsent"/>
+        <Class IRI="#ProofOfConcent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPurpose"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Campaign"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCreatedBy"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Campaign"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPartOf"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPartOf"/>
+        <Class abbreviatedIRI="untitled-ontology-21:User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasContractualElement"/>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractualElement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasExecutionDateTimeStamp"/>
+        <Class abbreviatedIRI="untitled-ontology-21:executionDate"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/isAbout"/>
+        <Class abbreviatedIRI="untitled-ontology-21:About"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isMandatedBy"/>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/Contract"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/usesAdministrativeLanguage"/>
+        <Class IRI="https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/Language"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:ControlledBy"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Campaign"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:ControlledBy"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:RequiresData"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Campaign"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:RequiresData"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Data"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:belongsToTheArea"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasAvailability"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Data"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasCapacity"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Storage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasConsent"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Campaign"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasConsent"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Consent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasContactDetails"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasContactDetails"/>
+        <Class abbreviatedIRI="untitled-ontology-21:User"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasDuration"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Campaign"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasEndDate"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Campaign"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasGPScoordinates"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Source"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasLatitude"/>
+        <Class abbreviatedIRI="untitled-ontology-21:GPS"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasLongitude"/>
+        <Class abbreviatedIRI="untitled-ontology-21:GPS"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasName"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Campaign"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasName"/>
+        <Class abbreviatedIRI="untitled-ontology-21:User"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasPhysicalAddress"/>
+        <Class abbreviatedIRI="untitled-ontology-21:User"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasProcessDuration"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Campaign"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasProcessDuration"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasProcessDuration"/>
+        <Class abbreviatedIRI="untitled-ontology-21:User"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasStartDate"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Campaign"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasStatus"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Campaign"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasStatus"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Consent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasStorageLocation"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Data"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasStorageLocation"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Storage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:hasValidationTime"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Consent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isDataSource"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Source"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isProvidedBy"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Consent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isProvidedBy"/>
+        <Class abbreviatedIRI="untitled-ontology-21:User"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isProvidedTo"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Consent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isProvidedTo"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isProvidedTo"/>
+        <Class abbreviatedIRI="untitled-ontology-21:User"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isRequestedBy"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Campaign"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isRequestedBy"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Data"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isSecuredBy"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Data"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isSecuredBy"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Storage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isSecuredBy"/>
+        <Class abbreviatedIRI="untitled-ontology-21:User"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isSignedOnline"/>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/Contract"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isUsedFor"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Data"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-21:isUsedFor"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ParticipatesIn"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Campaign"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ParticipatesIn"/>
+        <Class IRI="http://www.semanticweb.org/CampeNeo/ontologies/2020/4/User"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCapacity"/>
+        <Class IRI="http://www.semanticweb.org/CamoaNeo/ontologies/2020/4/Data"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCapacity"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Campaign"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCapacity"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Storage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEmail"/>
+        <Class abbreviatedIRI="untitled-ontology-21:User"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasProofOfAgreement"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Agreement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasProofOfAgreement"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Consent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasProofOfConsent"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Consent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPurpose"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Campaign"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPurpose"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Consent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCreatedBy"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCreatedBy"/>
+        <Class abbreviatedIRI="untitled-ontology-21:User"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPartOf"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Agreement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPartOf"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Campaign"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPartOf"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPartOf"/>
+        <Class abbreviatedIRI="untitled-ontology-21:User"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasContractualElement"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Agreement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasExecutionDateTimeStamp"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Agreement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasNonBindingTerms"/>
+        <Class IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractualElement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/isAbout"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Agreement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/isAbout"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Campaign"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/isAbout"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Consent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isMandatedBy"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Agreement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.omg.org/spec/LCC/Countries/CountryRepresentation/usesAdministrativeLanguage"/>
+        <Class abbreviatedIRI="untitled-ontology-21:Agreement"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#City"/>
+        <DataProperty IRI="#hasPhysicalAddress"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Country"/>
+        <DataProperty IRI="#hasPhysicalAddress"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#PostCode"/>
+        <DataProperty IRI="#hasPhysicalAddress"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Street"/>
+        <DataProperty IRI="#hasPhysicalAddress"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#StreetNumber"/>
+        <DataProperty IRI="#Street"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasEndDate"/>
+        <DataProperty IRI="#Duration"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasLatitude"/>
+        <DataProperty IRI="#hasGPSData"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasLongitude"/>
+        <DataProperty IRI="#hasGPSData"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasStartDate"/>
+        <DataProperty IRI="#Duration"/>
+    </SubDataPropertyOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>untitled-ontology-21:Campaign</AbbreviatedIRI>
+        <Literal>Campaign</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>untitled-ontology-21:Given</AbbreviatedIRI>
+        <Literal>User has given consent.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The Tyrolean governemnt wants to collect data of radius up to 15km from Innsbruck in order to find out which roads need more attention.</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Road</IRI>
+        <Literal>Roads of Innsbruck</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Road_block_detection</IRI>
+        <Literal>Road Block Detection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#STI_Innsbruck</IRI>
+        <Literal>STI Innsbruck is a research group at the University of Innsbruck engaged in research and development to bring information and communication technologies of the future into today&apos;s world.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#STI_Innsbruck</IRI>
+        <Literal>UIBK</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#University_of_Innsbruck</IRI>
+        <Literal>The University of Innsbruck  is a public university in Innsbruck, the capital of the Austrian federal state of Tyrol, founded in 1669. It is currently the largest education facility in the Austrian Bundesland of Tirol, the third largest in Austria behind Vienna University and the University of Graz and according to The Times Higher Education Supplement 2010 World Ranking it is Austria&apos;s leading university. Significant contributions have been made in many branches, most of all in the physics department. Further, regarding the number of Web of Science-listed publications, it occupies the third rank worldwide in the area of mountain research.[1] In the Handelsblatt Ranking 2015, the business administration faculty ranks among the 15 best business administration faculties in German-speaking countries.[2]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#University_of_Innsbruck</IRI>
+        <Literal>UIBK</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ConditionPrecedent</IRI>
+        <Literal>QName: fibo-fnd-agr-ctr:ConditionPrecedent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ConditionPrecedent</IRI>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ConditionPrecedent</IRI>
+        <Literal>condition precedent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ConditionPrecedent</IRI>
+        <Literal>condition that must be met, or an event or state of affairs that must occur, before a contract is considered in effect or certain obligations are expected of some party to that contract</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:explanatoryNote"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ConditionPrecedent</IRI>
+        <Literal>Condition precedents are common in wills and trusts.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:explanatoryNote"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ConditionPrecedent</IRI>
+        <Literal>There may also be condition precedents in the ongoing life of a contract, which state that if condition X occurs, event Y will then occur. Condition X is the condition precedent.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/Contract</IRI>
+        <Literal>QName: fibo-fnd-agr-ctr:Contract</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/Contract</IRI>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/Contract</IRI>
+        <Literal>contract</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/Contract</IRI>
+        <Literal>voluntary, deliberate agreement between two or more competent parties to which those parties agree to be legally bound, and to which the parties must have provided valuable consideration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:adaptedFrom"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/Contract</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.businessdictionary.com/definition/contract.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:explanatoryNote"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/Contract</IRI>
+        <Literal>A contractual relationship is evidenced by (1) an offer, (2) acceptance of the offer, and a (3) valid (legal and valuable) consideration. A contract is a kind of agreement, and as such it embodies the assertion that it has been negotiated, such negotiation having included the presence of some offer and the acceptance of that offer on the part of either or both of the parties.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:explanatoryNote"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/Contract</IRI>
+        <Literal>Contracts are usually written but may be spoken or implied, and generally have to do with employment, sale or lease, or tenancy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractualDefinition</IRI>
+        <Literal>QName: fibo-fnd-agr-ctr:ContractualDefinition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractualDefinition</IRI>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractualDefinition</IRI>
+        <Literal>contractual definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractualDefinition</IRI>
+        <Literal>contractual element that defines something in a contract or other legal instrument</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:editorialNote"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractualDefinition</IRI>
+        <Literal>These are agreed definitions which are then referred to in terms in contracts or other legal instruments.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractualElement</IRI>
+        <Literal>QName: fibo-fnd-agr-ctr:ContractualElement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractualElement</IRI>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractualElement</IRI>
+        <Literal>contractual element</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractualElement</IRI>
+        <Literal>general and special arrangements, provisions, requirements, rules, specifications, and standards that form an integral part of an agreement or contract</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:adaptedFrom"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractualElement</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.businessdictionary.com/definition/terms-and-conditions.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/MutualContractualAgreement</IRI>
+        <Literal>QName: fibo-fnd-agr-ctr:MutualContractualAgreement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/MutualContractualAgreement</IRI>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/MutualContractualAgreement</IRI>
+        <Literal>mutual contractual agreement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/MutualContractualAgreement</IRI>
+        <Literal>contract between two or more specific named parties; the rights and obligations pertaining to either party cannot be transferred to another party without prior written permission or a change to the contract itself</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:synonym"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/MutualContractualAgreement</IRI>
+        <Literal>bilateral contract</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/PromissoryNote</IRI>
+        <Literal>QName: fibo-fnd-agr-ctr:PromissoryNote</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/PromissoryNote</IRI>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/PromissoryNote</IRI>
+        <Literal>promissory note</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/PromissoryNote</IRI>
+        <Literal>unconditional and unsecured promise by one party (the issuer or promisor) to another (the payee or promisee) that commits the issuer to pay a specified sum on demand, or on a fixed or a determinable date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:explanatoryNote"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/PromissoryNote</IRI>
+        <Literal>Promissory notes (such as bank or currency notes) are negotiable instruments.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:explanatoryNote"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/PromissoryNote</IRI>
+        <Literal>Unlike a contract, a Promissory Note does not need to be signed by both parties. It is essentially a promise from one party to the holder, of some good or benefit. Promissory notes are generally fully fungible.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/TermSheet</IRI>
+        <Literal>QName: fibo-fnd-agr-ctr:TermSheet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/TermSheet</IRI>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/TermSheet</IRI>
+        <Literal>term sheet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/TermSheet</IRI>
+        <Literal>nonbinding agreement setting forth the basic terms and conditions under which a proposed business deal may be made</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:explanatoryNote"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/TermSheet</IRI>
+        <Literal>Term sheets state the intentions of the parties and are used to guide legal counsel in the preparation of proposed agreements or contracts.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/TransferableContract</IRI>
+        <Literal>QName: fibo-fnd-agr-ctr:TransferableContract</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/TransferableContract</IRI>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/TransferableContract</IRI>
+        <Literal>transferable contract</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/TransferableContract</IRI>
+        <Literal>contract in which the rights and obligations of one party (the holder) may be transferred to another party, which thereby takes on the same rights and obligations with respect to the other party to the contract</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:explanatoryNote"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/TransferableContract</IRI>
+        <Literal>Note that the ability to transfer ownership of one side of a contract, and the concept of assignability, are distinct. In one case the contract may be freely traded; in the other case, some legal transfer of rights to a third party takes place, without a change in who are the signatories of a (typically bilateral) contract.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/UnilateralContract</IRI>
+        <Literal>QName: fibo-fnd-agr-ctr:UnilateralContract</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/UnilateralContract</IRI>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/UnilateralContract</IRI>
+        <Literal>unilateral contract</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/UnilateralContract</IRI>
+        <Literal>contract in which only one party makes an express promise, or undertakes a performance without first securing a reciprocal agreement from the other party</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:explanatoryNote"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/UnilateralContract</IRI>
+        <Literal>In a unilateral, or one-sided, contract, one party, known as the offeror, makes a promise in exchange for an act (or abstention from acting) by another party, known as the offeree. If the offeree acts on the offeror&apos;s promise, the offeror is legally obligated to fulfill the contract, but an offeree cannot be forced to act (or not act), because no return promise has been made to the offeror. After an offeree has performed, only one enforceable promise exists, that of the offeror.
+
+A unilateral contract differs from a Bilateral Contract, in which the parties exchange mutual promises. Bilateral contracts are commonly used in business transactions; a sale of goods is a type of bilateral contract.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/VerbalContract</IRI>
+        <Literal>QName: fibo-fnd-agr-ctr:VerbalContract</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/VerbalContract</IRI>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/VerbalContract</IRI>
+        <Literal>verbal contract</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/VerbalContract</IRI>
+        <Literal>contract that exists as a result of some verbal exchange</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/WrittenContract</IRI>
+        <Literal>QName: fibo-fnd-agr-ctr:WrittenContract</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/WrittenContract</IRI>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/WrittenContract</IRI>
+        <Literal>written contract</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/WrittenContract</IRI>
+        <Literal>formal contract that is written and signed by the parties thereto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostCodeArea</IRI>
+        <Literal>QName: fibo-fnd-plc-adr:PostCodeArea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostCodeArea</IRI>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostCodeArea</IRI>
+        <Literal xml:lang="en">post code area</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostCodeArea</IRI>
+        <Literal>physical area uniquely identified by some postal code</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/BusinessCenter</IRI>
+        <Literal>QName: fibo-fnd-plc-loc:BusinessCenter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/BusinessCenter</IRI>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/BusinessCenter</IRI>
+        <Literal>business center</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/BusinessCenter</IRI>
+        <Literal>municipality where business is conducted, especially one that is considered a financial center</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:adaptedFrom"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/BusinessCenter</IRI>
+        <Literal>FpML Business Center and related codes, see http://www.fpml.org/coding-scheme/business-center-7-14.xml</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/County</IRI>
+        <Literal>QName: fibo-fnd-plc-loc:County</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/County</IRI>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/County</IRI>
+        <Literal xml:lang="en">county</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/County</IRI>
+        <Literal xml:lang="en">political and administrative division of a country, state or province, providing certain local governmental services</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/FederalCapitalArea</IRI>
+        <Literal>QName: fibo-fnd-plc-loc:FederalCapitalArea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/FederalCapitalArea</IRI>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/FederalCapitalArea</IRI>
+        <Literal>federal capital area</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/FederalCapitalArea</IRI>
+        <Literal>geopolitical entity that is or includes the municipality or capital city that acts as the seat of the federal government</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:scopeNote"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/FederalCapitalArea</IRI>
+        <Literal>This model includes representation of the capital administrative region of those federations for which the capital is situated other than within one of the states or provinces which make up the country as a whole. This is so that addresses and other references which may need to refer to any location within the country may do so. Examples include the District of Columbia in the US, and the Canberra area in Australia. Not all federations have such an area.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/FederalState</IRI>
+        <Literal>QName: fibo-fnd-plc-loc:FederalState</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/FederalState</IRI>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/FederalState</IRI>
+        <Literal>federal state</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/FederalState</IRI>
+        <Literal>self-governing geopolitical unit which forms part of a wider geopolitical unit that is recognized as a country</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:explanatoryNote"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/FederalState</IRI>
+        <Literal>This type of entity, variously referred to as a state, province or canton, has a level of self government including its own legal system and court jurisdiction, but cedes a level of autonomy to the federation of which it forms a part.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/Municipality</IRI>
+        <Literal>QName: fibo-fnd-plc-loc:Municipality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/Municipality</IRI>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/Municipality</IRI>
+        <Literal>municipality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/Municipality</IRI>
+        <Literal>urban administrative division having corporate status and usually powers of self-government or jurisdiction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/Municipality</IRI>
+        <Literal>A municipality can be any political jurisdiction from a sovereign state, such as the Principality of Monaco, or a small village, such as West Hampton Dunes, New York.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:scopeNote"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/Municipality</IRI>
+        <Literal>The territory over which a municipality has jurisdiction may encompass:
+- only one populated place such as a city, town, or village
+- several of such places (e.g., early jurisdictions in the state of New Jersey (1798-1899) as townships governing several villages, Municipalities of Mexico)
+- only parts of such places, sometimes boroughs of a city such as the 34 municipalities of Santiago, Chile.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:adaptedFrom"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/Municipality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://en.wikipedia.org/wiki/Municipality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:explanatoryNote"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/Municipality</IRI>
+        <Literal>A municipality is a general-purpose administrative subdivision, as opposed to a special-purpose district.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/Parcel</IRI>
+        <Literal>QName: fibo-fnd-plc-loc:Parcel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/Parcel</IRI>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/Parcel</IRI>
+        <Literal xml:lang="en">parcel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/Parcel</IRI>
+        <Literal xml:lang="en">tract or plot of land</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:explanatoryNote"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/Parcel</IRI>
+        <Literal>A parcel is a defined piece of real estate, usually resulting from the division of a large area of land.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/PhysicalLocation</IRI>
+        <Literal>QName: fibo-fnd-plc-loc:PhysicalLocation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/PhysicalLocation</IRI>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/PhysicalLocation</IRI>
+        <Literal>physical location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/PhysicalLocation</IRI>
+        <Literal>location in physical space</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/PopulatedPlace</IRI>
+        <Literal>QName: fibo-fnd-plc-loc:PopulatedPlace</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/PopulatedPlace</IRI>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/PopulatedPlace</IRI>
+        <Literal>populated place</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/PopulatedPlace</IRI>
+        <Literal>community in which people live or have lived, without being specific as to size, population or importance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/RealEstate</IRI>
+        <Literal>QName: fibo-fnd-plc-loc:RealEstate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/RealEstate</IRI>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/RealEstate</IRI>
+        <Literal xml:lang="en">real estate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/RealEstate</IRI>
+        <Literal>tract or plot of land including any fixed structures on it, as well as the natural resources of the land including uncultivated flora and fauna, farmed crops and livestock, water, and any additional mineral deposits</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:explanatoryNote"/>
+        <IRI>https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/RealEstate</IRI>
+        <Literal>Although media often refers to the &quot;real estate market&quot; from the perspective of residential living, real estate can be grouped into three broad categories based on its use, namely residential, commercial and industrial. Examples of real estate include undeveloped land, houses, condominiums, townhomes, office buildings, retail store buildings and factories.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://w3id.org/GConsent#DataAdaptation</IRI>
+        <Literal xml:lang="en">
+Represents the type of processing where Adaptation of data takes place.
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://w3id.org/GConsent#DataAdaptation</IRI>
+        <IRI>https://w3id.org/GDPRtEXT/gdpr#article4-2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://w3id.org/GConsent#DataAdaptation</IRI>
+        <Literal xml:lang="en">Data Adaptation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://w3id.org/GConsent#DataAlignment</IRI>
+        <Literal xml:lang="en">
+Represents the type of processing where Alignment of data takes place.
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://w3id.org/GConsent#DataAlignment</IRI>
+        <IRI>https://w3id.org/GDPRtEXT/gdpr#article4-2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://w3id.org/GConsent#DataAlignment</IRI>
+        <Literal xml:lang="en">Data Alignment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://w3id.org/GConsent#DataAlteration</IRI>
+        <Literal xml:lang="en">
+Represents the type of processing where Alteration of data takes place.
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://w3id.org/GConsent#DataAlteration</IRI>
+        <IRI>https://w3id.org/GDPRtEXT/gdpr#article4-2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://w3id.org/GConsent#DataAlteration</IRI>
+        <Literal xml:lang="en">Data Alteration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://w3id.org/GConsent#DataCollection</IRI>
+        <Literal xml:lang="en">
+Represents the type of processing where Collection of data takes place.
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://w3id.org/GConsent#DataCollection</IRI>
+        <IRI>https://w3id.org/GDPRtEXT/gdpr#article4-2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://w3id.org/GConsent#DataCollection</IRI>
+        <Literal xml:lang="en">Data Collection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://w3id.org/GConsent#DataCombination</IRI>
+        <Literal xml:lang="en">
+Represents the type of processing where Combination of data takes place.
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://w3id.org/GConsent#DataCombination</IRI>
+        <IRI>https://w3id.org/GDPRtEXT/gdpr#article4-2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://w3id.org/GConsent#DataCombination</IRI>
+        <Literal xml:lang="en">Data Combination</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://w3id.org/GConsent#DataConsultation</IRI>
+        <Literal xml:lang="en">
+Represents the type of processing where Consultation of data takes place.
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://w3id.org/GConsent#DataConsultation</IRI>
+        <IRI>https://w3id.org/GDPRtEXT/gdpr#article4-2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://w3id.org/GConsent#DataConsultation</IRI>
+        <Literal xml:lang="en">Data Consultation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://w3id.org/GConsent#DataDestruction</IRI>
+        <Literal xml:lang="en">
+Represents the type of processing where Destruction of data takes place.
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://w3id.org/GConsent#DataDestruction</IRI>
+        <IRI>https://w3id.org/GDPRtEXT/gdpr#article4-2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://w3id.org/GConsent#DataDestruction</IRI>
+        <Literal xml:lang="en">Data Destruction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://w3id.org/GConsent#DataDisclosureByTransmission</IRI>
+        <Literal xml:lang="en">
+Represents the type of processing where Disclosure by Transmission of data takes place.
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://w3id.org/GConsent#DataDisclosureByTransmission</IRI>
+        <IRI>https://w3id.org/GDPRtEXT/gdpr#article4-2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://w3id.org/GConsent#DataDisclosureByTransmission</IRI>
+        <Literal xml:lang="en">Data Disclosure by Transmission</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://w3id.org/GConsent#DataDissemination</IRI>
+        <Literal xml:lang="en">
+Represents the type of processing where Dissemination of data takes place.
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://w3id.org/GConsent#DataDissemination</IRI>
+        <IRI>https://w3id.org/GDPRtEXT/gdpr#article4-2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://w3id.org/GConsent#DataDissemination</IRI>
+        <Literal xml:lang="en">Data Dissemination</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://w3id.org/GConsent#DataErasure</IRI>
+        <Literal xml:lang="en">
+Represents the type of processing where Erasure of data takes place.
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://w3id.org/GConsent#DataErasure</IRI>
+        <IRI>https://w3id.org/GDPRtEXT/gdpr#article4-2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://w3id.org/GConsent#DataErasure</IRI>
+        <Literal xml:lang="en">Data Erasure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://w3id.org/GConsent#DataRecording</IRI>
+        <Literal xml:lang="en">
+Represents the type of processing where Recording of data takes place.
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://w3id.org/GConsent#DataRecording</IRI>
+        <IRI>https://w3id.org/GDPRtEXT/gdpr#article4-2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://w3id.org/GConsent#DataRecording</IRI>
+        <Literal xml:lang="en">Data Recording</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://w3id.org/GConsent#DataRestriction</IRI>
+        <Literal xml:lang="en">
+Represents the type of processing where Restriction of data takes place.
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://w3id.org/GConsent#DataRestriction</IRI>
+        <IRI>https://w3id.org/GDPRtEXT/gdpr#article4-2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://w3id.org/GConsent#DataRestriction</IRI>
+        <Literal xml:lang="en">Data Restriction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://w3id.org/GConsent#DataRetrieval</IRI>
+        <Literal xml:lang="en">
+Represents the type of processing where Retrieval of data takes place.
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://w3id.org/GConsent#DataRetrieval</IRI>
+        <IRI>https://w3id.org/GDPRtEXT/gdpr#article4-2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://w3id.org/GConsent#DataRetrieval</IRI>
+        <Literal xml:lang="en">Data Retrieval</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://w3id.org/GConsent#DataSharing</IRI>
+        <Literal xml:lang="en">
+Type of processing where sharing of data takes place with a Third Party.
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://w3id.org/GConsent#DataSharing</IRI>
+        <Literal xml:lang="en">Data Sharing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://w3id.org/GConsent#DataStructuring</IRI>
+        <Literal xml:lang="en">
+Represents the type of processing where Structuring of data takes place.
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://w3id.org/GConsent#DataStructuring</IRI>
+        <IRI>https://w3id.org/GDPRtEXT/gdpr#article4-2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://w3id.org/GConsent#DataStructuring</IRI>
+        <Literal xml:lang="en">Data Structuring</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://w3id.org/GConsent#Processing</IRI>
+        <Literal xml:lang="en">
+Processing is defined by the GDPR (Article 4-2) as &quot;any operation or set of operations which is performed on personal data or on sets of personal data, whether or not by automated means, such as collection, recording, organisation, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction;&quot;. Processing can be considered as the action, within an activity for example, that uses data in a particular or specific way. Therefore, processing specifies what is happening to/with the data. To define a type of processing (or its associated action), the Processing class should be subclassed for each type. Furthermore, each subclass should define a instance as a generic representative of that action. For example, &quot;collect&quot; as a type of processing (defined by the GDPR), is defined as the class DataCollection, which is a subclass of Processing, and has the individual CollectionOfPersonalData to represent a generic instance of the concept. This is to provide a ready-to-use ontology in terms of &quot;collect&quot; as an action, while also providing a way to specialise the action/processing. GConsent defines several such types of processing taken from the text of the GDPR.
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://w3id.org/GConsent#Processing</IRI>
+        <IRI>https://w3id.org/GDPRtEXT#DataActivity</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://w3id.org/GConsent#Processing</IRI>
+        <Literal xml:lang="en">Processing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://w3id.org/GConsent#Purpose</IRI>
+        <Literal xml:lang="en">
+Purpose refers to the aim or goal towards which the data is processed (or associated with any other form of action).
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://w3id.org/GConsent#Purpose</IRI>
+        <IRI>https://w3id.org/GDPRtEXT/gdpr</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://w3id.org/GConsent#Purpose</IRI>
+        <Literal xml:lang="en">Purpose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://w3id.org/GConsent#Status</IRI>
+        <Literal xml:lang="en">
+Represents the status of consent for the data subject. This allows persisting the determination of the validatity or suitability of consent (as an entity or instance) for use in processing and other activities. Examples: consent is given, consent is requested but not given, consent was withdrawn.
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://w3id.org/GConsent#Status</IRI>
+        <Literal xml:lang="en">Status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://w3id.org/GConsent#StatusInvalidForProcessing</IRI>
+        <Literal xml:lang="en">
+Represents consent states that are invalid for processing.
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://w3id.org/GConsent#StatusInvalidForProcessing</IRI>
+        <Literal xml:lang="en">Status invalid for Processing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://w3id.org/GConsent#StatusValidForProcessing</IRI>
+        <Literal xml:lang="en">
+Represents consent states that are valid for processing
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://w3id.org/GConsent#StatusValidForProcessing</IRI>
+        <Literal xml:lang="en">Status valid for Processing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Country</IRI>
+        <IRI>https://www.omg.org/spec/LCC/Countries/CountryRepresentation/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Country</IRI>
+        <Literal>country</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Country</IRI>
+        <Literal>a geopolitical entity representing a country or dependent territory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://www.omg.org/spec/LCC/Countries/CountryRepresentation/CountrySubdivision</IRI>
+        <IRI>https://www.omg.org/spec/LCC/Countries/CountryRepresentation/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.omg.org/spec/LCC/Countries/CountryRepresentation/CountrySubdivision</IRI>
+        <Literal>country subdivision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>https://www.omg.org/spec/LCC/Countries/CountryRepresentation/CountrySubdivision</IRI>
+        <Literal>a geopolitical entity, typically a division of a country, dependency, or other area of special geopolitical interest related to a country or other geopolitical entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:source"/>
+        <IRI>https://www.omg.org/spec/LCC/Countries/CountryRepresentation/GeographicRegion</IRI>
+        <IRI>https://en.oxforddictionaries.com/definition/region</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://www.omg.org/spec/LCC/Countries/CountryRepresentation/GeographicRegion</IRI>
+        <IRI>https://www.omg.org/spec/LCC/Countries/CountryRepresentation/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.omg.org/spec/LCC/Countries/CountryRepresentation/GeographicRegion</IRI>
+        <Literal>geographic region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>https://www.omg.org/spec/LCC/Countries/CountryRepresentation/GeographicRegion</IRI>
+        <Literal>an area, especially part of a country or the world having definable characteristics but not always fixed boundaries</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://www.omg.org/spec/LCC/Countries/CountryRepresentation/GeopoliticalEntity</IRI>
+        <IRI>https://www.omg.org/spec/LCC/Countries/CountryRepresentation/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.omg.org/spec/LCC/Countries/CountryRepresentation/GeopoliticalEntity</IRI>
+        <Literal>geopolitical entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>https://www.omg.org/spec/LCC/Countries/CountryRepresentation/GeopoliticalEntity</IRI>
+        <Literal>any country, federal province, city or other administrative unit that represents a geophysical location and has some political identity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Location</IRI>
+        <IRI>https://www.omg.org/spec/LCC/Countries/CountryRepresentation/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Location</IRI>
+        <Literal>location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Location</IRI>
+        <Literal>a place or position in time and/or space, including virtual place</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Territory</IRI>
+        <IRI>https://www.omg.org/spec/LCC/Countries/CountryRepresentation/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Territory</IRI>
+        <Literal>territory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Territory</IRI>
+        <Literal>a geopolitical entity, typically considered an area of special geopolitical interest, related to a country or other geopolitical entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:note"/>
+        <IRI>https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Territory</IRI>
+        <Literal>Certain territories are included in the ISO 3166-2 code set without an alpha 2 or alpha 3 code.  In these cases, the numeric code for the subregion may have more than 3 characters in their corresponding numeric region codes.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
